@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotted_rulers (0.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotted_rulers
