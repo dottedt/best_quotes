@@ -1,8 +1,6 @@
 class QuotesController < DottedRulers::Controller
   def a_quote
-    "Hell hath no furrey like a cat" +
-      "shooed off your keyboard" +
-      "\n<pre>\n#{env}\n</pre>"
+    render :a_quote, verb: :shooed
   end
 
   def exception
