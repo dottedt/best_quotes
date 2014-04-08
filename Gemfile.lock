@@ -1,10 +1,16 @@
+PATH
+  remote: ../dotted_rulers
+  specs:
+    dotted_rulers (0.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    dotted_rulers (0.0.1)
+    rack (1.5.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotted_rulers
+  dotted_rulers!
+  rack
