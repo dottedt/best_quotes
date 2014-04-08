@@ -2,10 +2,13 @@ PATH
   remote: ../dotted_rulers
   specs:
     dotted_rulers (0.0.2)
+      erubis
+      rack
 
 GEM
   remote: https://rubygems.org/
   specs:
+    erubis (2.7.0)
     rack (1.5.2)
 
 PLATFORMS
@@ -13,4 +16,3 @@ PLATFORMS
 
 DEPENDENCIES
   dotted_rulers!
-  rack
