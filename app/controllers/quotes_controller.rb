@@ -6,4 +6,11 @@ class QuotesController < DottedRulers::Controller
   def exception
     raise "Holy flocking snitz this is bad!"
   end
+  def quote_1
+    quote_1 = DottedRulers::Model::FileModel.find(1)
+    render :quote, :obj => quote_1
+
+  end
+
+
 end

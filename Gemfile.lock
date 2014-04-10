@@ -3,12 +3,14 @@ PATH
   specs:
     dotted_rulers (0.0.2)
       erubis
+      multi_json
       rack
 
 GEM
   remote: https://rubygems.org/
   specs:
     erubis (2.7.0)
+    multi_json (1.9.0)
     rack (1.5.2)
 
 PLATFORMS
