@@ -14,6 +14,12 @@ class QuotesController < DottedRulers::Controller
     render :quote, obj: m
   end
 
+  def show
+    quote = FileModel.find(params["id"])
+    ua = request.user_agent
+    render :quote, obj: quote, ua: ua
+  end
+
   def a_quote
     render :a_quote, verb: :shooed
   end
